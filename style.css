@@ -1,7 +1,7 @@
 /*
  Theme Name:   Radiate -- Optimized for Event Smart
  Theme URI:    https://eventsmart.com
- Description:  Radiate is a clean, creative and light retina ready responsive theme supporting parallax header image. It integrates primary color option, custom background, custom css and few other features through the customizer.
+ Description:  Radiate is a clean, creative and light retina ready responsive blogging theme supporting parallax header image. It integrates primary color option, custom background, custom css and few other features through WordPress customizer. The theme is translation ready. Available Translations: French, German, Russian, Swedish, Dutch, Norwegian and Brazilian Portuguese.
  Author:       Event Smart & ThemeGrill
  Author URI:   https://eventsmart.com
  Template:     radiate
@@ -9,8 +9,6 @@
  Tags:         light, white, two-columns, right-sidebar, responsive-layout, custom-header, custom-background, custom-menu, custom-colors, post-formats, sticky-post, threaded-comments, translation-ready
  Text Domain:  radiate__optimized_for_event_smart
 */
-
-@import url("../radiate/style.css");
 
 .ee-event-datetimes-ul li {
 	float: left;
@@ -25,6 +23,10 @@
 
 .ee-event-datetimes-ul:after {
 	clear: both;
+}
+
+.ticket-selector-submit-btn {
+    float: right;
 }
 
 /* 960px > x */

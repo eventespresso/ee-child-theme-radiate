@@ -65,7 +65,12 @@ get_header(); ?>
 
 						elseif ( is_tax( 'post_format', 'post-format-link' ) ) :
 							_e( 'Links', 'radiate' );
-
+						//Event Espresso
+							elseif ( is_post_type_archive ( array( 'espresso_venues' ) ) ) :
+								_e( 'Venues', 'radiate' );
+							elseif ( is_tax( array( 'espresso_event_categories', 'espresso_venue_categories' ) ) ) :
+								echo ' ' . single_term_title();
+						//End Event Espresso
 						else :
 							_e( 'Archives', 'radiate' );
 
