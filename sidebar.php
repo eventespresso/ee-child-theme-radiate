@@ -12,4 +12,5 @@
 		<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 			<?php dynamic_sidebar( 'sidebar-1' ); ?>
 		<?php endif; // end sidebar widget area ?>
+		<?php do_action('es_sidebar_display_ad_radiate_theme');?>
 	</div><!-- #secondary -->
